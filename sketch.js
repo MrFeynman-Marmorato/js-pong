@@ -19,7 +19,7 @@ let chanceDeErrar = 0;
 
 // variáveis gerais das raquetes
 let larguraRaquete = 10;
-let alturaRaquete = 120;
+let alturaRaquete = 60;
 
 // variáveis do placar
 let meusPontos = 0;

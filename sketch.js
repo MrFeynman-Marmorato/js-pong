@@ -30,6 +30,12 @@ let raquetada;
 let ponto;
 let trilha;
 
+function preload(){
+  trilha = loadSound("trilha.mp3");
+  ponto = loadSound("ponto.mp3");
+  raquetada = loadSound("raquetada.mp3");
+}
+
 function setup() {
   createCanvas(600, 400);
   trilha.loop();
@@ -133,12 +139,6 @@ function marcaPonto(){
     ponto.play();
     numeroDeRaquetadas = 0;
   }
-}
-
-function preload(){
-  trilha = loadSound("trilha.mp3");
-  ponto = loadSound("ponto.mp3");
-  raquetada = loadSound("raquetada.mp3");
 }
 
 function calculaChanceDeErrar() {
